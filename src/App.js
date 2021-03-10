@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
 // import './App.css'
-import Home from './Home';
-function App(props)
-{
-    return(
-            <div>
-                <Home/>
-            </div>
-    )
+import MenuBar from "./MenuBar";
+import MainPage from "./MainPage";
+function App(props) {
+  return (
+    <div>
+      <h1>app page</h1>
+      <MenuBar />
+      <MainPage />
+    </div>
+  );
 }
 
-export default App
+export default App;
