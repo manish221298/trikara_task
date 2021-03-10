@@ -13,7 +13,7 @@ import {
 const MainPage = () => {
   return (
     <div className="main mt-5">
-      <div className="div row">
+      <div className="div">
         <div className="div1">
           <CardDeck className="text-center">
             <Card className="card">
@@ -78,7 +78,7 @@ const MainPage = () => {
           </CardDeck>
         </div>
 
-        <div className="div2">
+        <div className="div2 ml-3">
           <Row className="row">
             <Col md={4}>
               <Image
