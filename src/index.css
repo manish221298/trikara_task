@@ -1,14 +1,18 @@
+.div {
+  height: 550px;
+}
 .div1 {
   width: 20%;
   float: left;
-  background-color: blue;
+  background-color: rgb(244, 244, 248);
   margin-left: 50px;
+  height: 520px;
 }
 .div2 {
   width: 60%;
   float: right;
   margin-right: 90px;
-  /* background-color: chartreuse; */
+  height: auto;
 }
 .image {
   margin-left: auto;
@@ -23,5 +27,9 @@
   font-size: 12px;
 }
 .row {
-  background-color: chartreuse;
+  background-color: rgb(215, 248, 183);
+}
+
+.div3 {
+  background-color: darkviolet;
 }

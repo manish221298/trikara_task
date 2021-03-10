@@ -1,13 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
+import Discussion from "./Discussions";
+import MainPage from "./MainPage";
 
 const MenuBar = () => {
   return (
     <div>
       <h1>manubar</h1>
 
-      <p className="text-danger ml-5 fs-5">lkugv</p>
       <Navbar bg="dark" expand="lg" variant="dark">
         <Navbar.Brand href={"/"}>insKillz</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
