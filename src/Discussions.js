@@ -9,7 +9,7 @@ const Discussion = () => {
         <div>
           <Container>
             <h3>
-              <b>Courses Recommended</b>
+              <b className="text-center">Courses Recommended</b>
             </h3>
             <CardDeck>
               <Card className="card">

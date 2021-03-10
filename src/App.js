@@ -8,8 +8,6 @@ import QueryForm from "./QueryForm";
 function App(props) {
   return (
     <div>
-      <h1>app page</h1>
-
       <MenuBar />
       <MainPage />
       <Discussion />

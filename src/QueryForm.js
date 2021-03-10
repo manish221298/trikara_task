@@ -85,14 +85,21 @@ class QueryForm extends Component {
     });
 
     return (
-      <div style={{ backgroundColor: "black" }}>
-        <div className="mb-5 pb-5">
+      <div>
+        <div
+          style={{ width: "50%", marginLeft: "300px" }}
+          className="text-center mb-5 pb-5"
+        >
           <Container>
-            <h3 className="text-center mt-5">
-              <b>Any Query on Digital marketing</b>
-            </h3>
             <Form onSubmit={this.handleSubmit}>
-              <Row className="pt-3">
+              <Row className="mt-3">
+                <Col>
+                  <h3 className="text-center mt-5">
+                    <b>Any Query on Digital marketing</b>
+                  </h3>
+                </Col>
+              </Row>
+              <Row>
                 <Col md={6}>
                   <Form.Label htmlFor="name">Name:-</Form.Label>
                   <Form.Control

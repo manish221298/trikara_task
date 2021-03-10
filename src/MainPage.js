@@ -1,6 +1,6 @@
 import React from "react";
 import manish from "./manish.jpg";
-import { Link } from "react-router-dom";
+
 import {
   CardDeck,
   Card,
@@ -9,14 +9,11 @@ import {
   Col,
   Button,
   ProgressBar,
-  Container,
 } from "react-bootstrap";
-import Discussion from "./Discussions";
-
 const MainPage = () => {
   return (
-    <div className="main">
-      <div className="div">
+    <div className="main mt-5">
+      <div className="div row">
         <div className="div1">
           <CardDeck className="text-center">
             <Card className="card">
