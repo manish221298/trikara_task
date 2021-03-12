@@ -1,19 +1,7 @@
 .div {
-  height: 550px;
-}
-.div1 {
-  width: 20%;
-  float: left;
-  background-color: rgb(244, 244, 248);
-  margin-left: 50px;
-  height: 520px;
-}
-.div2 {
-  width: 60%;
-  float: right;
-  margin-right: 90px;
   height: auto;
 }
+
 .image {
   margin-left: auto;
   margin-right: auto;
@@ -25,9 +13,6 @@
 }
 .imgcol2 {
   font-size: 12px;
-}
-.row {
-  background-color: rgb(215, 248, 183);
 }
 
 .div3 {

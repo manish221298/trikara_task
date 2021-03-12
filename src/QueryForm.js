@@ -87,92 +87,96 @@ class QueryForm extends Component {
     return (
       <div>
         <div
-          style={{ width: "50%", marginLeft: "300px" }}
-          className="text-center mb-5 pb-5"
+          style={{ width: "100%", height: "600px", backgroundColor: "white" }}
+          className="row text-center mb-5 pb-5"
         >
-          <Container>
-            <Form onSubmit={this.handleSubmit}>
-              <Row className="mt-3">
-                <Col>
-                  <h3 className="text-center mt-5">
-                    <b>Any Query on Digital marketing</b>
-                  </h3>
-                </Col>
-              </Row>
-              <Row>
-                <Col md={6}>
-                  <Form.Label htmlFor="name">Name:-</Form.Label>
-                  <Form.Control
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={this.state.name}
-                    onChange={this.handleChange}
-                  />
-                  <p style={{ color: "red" }}>{this.state.nameErr}</p>
-                  <br />
-                </Col>
-                <Col md={6}>
-                  <Form.Label htmlFor="email">Email:-</Form.Label>
-                  <Form.Control
-                    type="text"
-                    id="email"
-                    name="email"
-                    value={this.state.email}
-                    onChange={this.handleChange}
-                  />
-                  <p style={{ color: "red" }}>{this.state.emailErr}</p>
-                </Col>
-              </Row>
+          <div class="col-sm-4"></div>
+          <div class="col-sm-4" style={{ backgroundColor: "" }}>
+            <Container>
+              <Form onSubmit={this.handleSubmit}>
+                <Row className="mt-3">
+                  <Col>
+                    <h3 className="text-center mt-5">
+                      <b>Any Query on Digital marketing</b>
+                    </h3>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col md={6}>
+                    <Form.Label htmlFor="name">Name:-</Form.Label>
+                    <Form.Control
+                      type="text"
+                      id="name"
+                      name="name"
+                      value={this.state.name}
+                      onChange={this.handleChange}
+                    />
+                    <p style={{ color: "red" }}>{this.state.nameErr}</p>
+                    <br />
+                  </Col>
+                  <Col md={6}>
+                    <Form.Label htmlFor="email">Email:-</Form.Label>
+                    <Form.Control
+                      type="text"
+                      id="email"
+                      name="email"
+                      value={this.state.email}
+                      onChange={this.handleChange}
+                    />
+                    <p style={{ color: "red" }}>{this.state.emailErr}</p>
+                  </Col>
+                </Row>
 
-              <Row>
-                <Col md={6}>
-                  <Form.Label htmlFor="number">Phone Number:-</Form.Label>
-                  <Form.Control
-                    type="Number"
-                    id="numbar"
-                    name="phoneNumber"
-                    value={this.state.phoneNumber}
-                    onChange={this.handleChange}
-                  />
-                  <p style={{ color: "red" }}>{this.state.phoneNumberErr}</p>
-                </Col>
-                <Col md={6}>
-                  <Form.Label htmlFor="select">
-                    Select Enquery Type:-
-                  </Form.Label>
-                  <Form.Control
-                    as="select"
-                    name="option"
-                    onChange={this.handleChange}
-                  >
-                    {selectList}
-                  </Form.Control>
-                </Col>
-              </Row>
-              <Row>
-                <Col md={12}>
-                  <Form.Label htmlFor="enquery">Message:-</Form.Label>
-                  <Form.Control
-                    as="textarea"
-                    name="message"
-                    value={this.state.message}
-                    onChange={this.handleChange}
-                  />
-                  <p style={{ color: "red" }}>{this.state.messageErr}</p>
-                </Col>
-              </Row>
-              <Row>
-                <Col md={4}></Col>
-                <Col md={4}>
-                  <Button size="sm" block className="mt-3 pl-5 pr-5">
-                    <input type="submit" className="btn" value="SUBMIT" />
-                  </Button>
-                </Col>
-                <col md={4}></col>
-              </Row>
-            </Form>
-          </Container>
+                <Row>
+                  <Col md={6}>
+                    <Form.Label htmlFor="number">Phone Number:-</Form.Label>
+                    <Form.Control
+                      type="Number"
+                      id="numbar"
+                      name="phoneNumber"
+                      value={this.state.phoneNumber}
+                      onChange={this.handleChange}
+                    />
+                    <p style={{ color: "red" }}>{this.state.phoneNumberErr}</p>
+                  </Col>
+                  <Col md={6}>
+                    <Form.Label htmlFor="select">
+                      Select Enquery Type:-
+                    </Form.Label>
+                    <Form.Control
+                      as="select"
+                      name="option"
+                      onChange={this.handleChange}
+                    >
+                      {selectList}
+                    </Form.Control>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col md={12}>
+                    <Form.Label htmlFor="enquery">Message:-</Form.Label>
+                    <Form.Control
+                      as="textarea"
+                      name="message"
+                      value={this.state.message}
+                      onChange={this.handleChange}
+                    />
+                    <p style={{ color: "red" }}>{this.state.messageErr}</p>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col md={4}></Col>
+                  <Col md={4}>
+                    <Button size="sm" block className="mt-3 ">
+                      <input type="submit" className="btn" value="SUBMIT" />
+                    </Button>
+                  </Col>
+                  <col md={4}></col>
+                </Row>
+              </Form>
+            </Container>
+          </div>
+          <div class="col-sm-4"></div>
         </div>
       </div>
     );

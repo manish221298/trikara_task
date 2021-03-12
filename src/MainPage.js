@@ -13,8 +13,8 @@ import {
 const MainPage = () => {
   return (
     <div className="main mt-5">
-      <div className="div">
-        <div className="div1">
+      <div className="div row">
+        <div className="col-sm-4 div1">
           <CardDeck className="text-center">
             <Card className="card">
               <Image
@@ -78,9 +78,9 @@ const MainPage = () => {
           </CardDeck>
         </div>
 
-        <div className="div2 ml-3">
+        <div className="col-sm-8 div2">
           <Row className="row">
-            <Col md={4}>
+            <Col className="col-sm-4" md={4}>
               <Image
                 style={{ height: "160px" }}
                 className="0"
@@ -90,7 +90,7 @@ const MainPage = () => {
                 display="block"
               />
             </Col>
-            <Col md={8} style={{ columnSpan: "2" }}>
+            <Col className="col-sm-4" md={8} style={{ columnSpan: "2" }}>
               <b>Why Digital marketing</b>
               <p>Instructor Name:- Joseph Smith</p>
               <ProgressBar animated now={45} />

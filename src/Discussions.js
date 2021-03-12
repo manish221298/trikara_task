@@ -8,8 +8,8 @@ const Discussion = () => {
       <Container>
         <div>
           <Container>
-            <h3>
-              <b className="text-center">Courses Recommended</b>
+            <h3 className="mt-5">
+              <b>Courses Recommended</b>
             </h3>
             <CardDeck>
               <Card className="card">
