@@ -39,6 +39,9 @@ class QueryForm extends Component {
     if (!this.state.email) {
       emailErr = "Email should be required";
     }
+    if (!this.state.email.includes("@gmail.com")) {
+      emailErr = "invalid email format ";
+    }
     if (!this.state.phoneNumber) {
       phoneNumberErr = "Number shold be required";
     }
