@@ -91,7 +91,7 @@ class QueryForm extends Component {
           className="row text-center mb-5 pb-5"
         >
           <div class="col-sm-3"></div>
-          <div class="col-sm-6" style={{ backgroundColor: "" }}>
+          <div class="col-sm-6 form " style={{ backgroundColor: "light-gray" }}>
             <Container>
               <Form onSubmit={this.handleSubmit}>
                 <Row className="mt-3">
