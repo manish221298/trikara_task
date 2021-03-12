@@ -90,8 +90,8 @@ class QueryForm extends Component {
           style={{ width: "100%", height: "600px", backgroundColor: "white" }}
           className="row text-center mb-5 pb-5"
         >
-          <div class="col-sm-4"></div>
-          <div class="col-sm-4" style={{ backgroundColor: "" }}>
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6" style={{ backgroundColor: "" }}>
             <Container>
               <Form onSubmit={this.handleSubmit}>
                 <Row className="mt-3">
@@ -176,7 +176,7 @@ class QueryForm extends Component {
               </Form>
             </Container>
           </div>
-          <div class="col-sm-4"></div>
+          <div class="col-sm-3"></div>
         </div>
       </div>
     );
