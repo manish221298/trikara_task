@@ -101,7 +101,7 @@ class QueryForm extends Component {
                     </h3>
                   </Col>
                 </Row>
-                <Row>
+                <Row className="text-left">
                   <Col md={6}>
                     <Form.Label htmlFor="name">Name:-</Form.Label>
                     <Form.Control
@@ -127,7 +127,7 @@ class QueryForm extends Component {
                   </Col>
                 </Row>
 
-                <Row>
+                <Row className="text-left">
                   <Col md={6}>
                     <Form.Label htmlFor="number">Phone Number:-</Form.Label>
                     <Form.Control
@@ -152,7 +152,7 @@ class QueryForm extends Component {
                     </Form.Control>
                   </Col>
                 </Row>
-                <Row>
+                <Row className="text-left">
                   <Col md={12}>
                     <Form.Label htmlFor="enquery">Message:-</Form.Label>
                     <Form.Control
